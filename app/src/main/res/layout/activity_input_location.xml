@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Locations.inputLocation"
+    android:background="@color/colorPrimary"
+    android:padding="24dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/addLocation_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add location:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cityName_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City name:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/cityName_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+    android:id="@+id/countryID_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Country ID (ex: DK, UK, MD):"
+    android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/countryID_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/saveLocation_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE LOCATION"/>
+
+        <Button
+            android:id="@+id/seeLocation_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="LOCATIONS LIST"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

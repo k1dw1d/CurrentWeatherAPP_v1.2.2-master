@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather APP</string>
+    <string name="intro_text">Android Programming Project</string>
+    <string name="authors_text">Authors: "\n" Cristian Ceruta "\n" Mindaugas Pikelis "\n" Marc Salvado</string>
+</resources>
