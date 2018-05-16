@@ -1,16 +1,17 @@
 This is the project for the Android Programming Lecture.
 
-APP Name: Weather
+APP Name: WeatherAPP
 
 Group Members:  Cristian Ceruta
                 Mindaugas Pikelis
                 Marc Salvado
 
 We have used in this app:
- - API Call by coordinates from https://openweathermap.org/current                  **//Function Class
- - GPS Location of the device                                                       **//GPS Class
- - Room Database (for inputing a list of city_names and country_ID)
- - RecyclerView (for laying out the list of locations the user will insert)         **//listLocation Activity
+ - API Call by coordinates from https://openweathermap.org/current                  **//Function java Class
+ - GPS Location of the device                                                       **//GPS java Class
+ - Room Database (for inputing a list of city_names and country_ID)                 **//Database Package Folder
+ - RecyclerView (for laying out the list of locations the user will insert)         **//Locations Package Folder
  
  The APP will not call the weather by inserting the city_name and country_ID in the **//inputLocation Activity
- It is using only the coordinates.
+ 
+ The APP wil call the weather only by the device coordinates.
